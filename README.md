@@ -42,11 +42,12 @@ After creation:
 
 Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):
 
-BLOB_ACCOUNT: cms1321
+BLOB_ACCOUNT: cms12
 
 BLOB_CONTAINER: images
 
-BLOB_STORAGE_KEY: xR5Gjh49yb94o6o+yY1Cc1cJkOs05HRQvw8rSSd5sTxLD7Vi0E3kSaJUodWLVvXY9ZeMG6Q5nilq+AStsiI9Bw== - BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=cms1321;AccountKey=xR5Gjh49yb94o6o+yY1Cc1cJkOs05HRQvw8rSSd5sTxLD7Vi0E3kSaJUodWLVvXY9ZeMG6Q5nilq+AStsiI9Bw==;EndpointSuffix=core.windows.net
+BLOB_STORAGE_KEY: 1SVBhq6GiXtgukxr4Vi+BrmI/eSOgTuxmlpghxnFr4gMoAqQRFVjrKFmSkMuC3XxhBc3uHwJxUWJ+AStrflLug==
+BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=cms12;AccountKey=1SVBhq6GiXtgukxr4Vi+BrmI/eSOgTuxmlpghxnFr4gMoAqQRFVjrKFmSkMuC3XxhBc3uHwJxUWJ+AStrflLug==;EndpointSuffix=core.windows.net
 
 SQL_SERVER: cms123.database.windows.net
 
