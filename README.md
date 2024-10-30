@@ -41,15 +41,25 @@ If you are getting a "Validation failed for a resource" error, pick a different 
 After creation:
 
 Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):
+
 BLOB_ACCOUNT: cms1321
+
 BLOB_CONTAINER: images
+
 BLOB_STORAGE_KEY: xR5Gjh49yb94o6o+yY1Cc1cJkOs05HRQvw8rSSd5sTxLD7Vi0E3kSaJUodWLVvXY9ZeMG6Q5nilq+AStsiI9Bw== - BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=cms1321;AccountKey=xR5Gjh49yb94o6o+yY1Cc1cJkOs05HRQvw8rSSd5sTxLD7Vi0E3kSaJUodWLVvXY9ZeMG6Q5nilq+AStsiI9Bw==;EndpointSuffix=core.windows.net
+
 SQL_SERVER: cms123.database.windows.net
+
 SQL_DATABASE: cms
+
 SQL_USER_NAME: cmsadmin
+
 SQL_PASSWORD: CMS4dmin
+
 CLIENT_SECRET: rpi8Q~64AfwOADjBNbG7wAZHlemphoBJqfAzIaOO
+
 SECRET_KEY: 16b72f3c-a5d4-4502-bef5-102c0aafb57f
+
 CLIENT_ID: 6b75513e-7cb2-491b-aeb0-890c5ce1a415 Deployment Center
 
 Source: GitHub
