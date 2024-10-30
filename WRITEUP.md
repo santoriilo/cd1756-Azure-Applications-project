@@ -1,12 +1,18 @@
-# Write-up Template
+Article CMS (FlaskWebProject)
+This project is a Python web application built using Flask. The user can log in and out and create/edit articles. An article consists of a title, author, and body of text stored in an Azure SQL Server along with an image that is stored in Azure Blob Storage. The login system also implements OAuth2 with Sign in with Microsoft using the msal library, along with app logging.
 
-### Analyze, choose, and justify the appropriate resource option for deploying the app.
+Below four factors to consider web app vs. vms.
 
-*For **both** a VM or App Service solution for the CMS app:*
-- *Analyze costs, scalability, availability, and workflow*
-- *Choose the appropriate solution (VM or App Service) for deploying the app*
-- *Justify your choice*
+Cost
+Web applications generally have lower costs compared to VMs. For instance, Azure App Services can be more cost-effective because they charge based on usage, whereas VMs incur costs even when idle.  Whereas, VMs has he more CPU, memory, and storage you allocate to your VM, the higher the cost. For example, a VM with 4 vCPUs and 16 GB of RAM will cost more than one with 2 vCPUs and 8 GB of RAM.
 
-### Assess app changes that would change your decision.
+Scalability
+Web applications can scale up or down based on demand without significant manual intervention. This flexibility can lead to cost savings, especially during periods of low usage.  Whereas, VMs can be scaled horizontally by adding more instances to distribute the workload. This is often managed through tools like Azure Virtual Machine Scale Sets, which automatically adjust the number of VMs based on demand.
 
-*Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
+Availability
+Web applications are designed to be accessible 24/7 with minimal downtime. This is crucial for businesses that need to ensure their services are always available to users. By distributing VMs across different physical servers or data centers, you can achieve high availability and fault tolerance, ensuring your applications remain accessible even if some VMs fail1.
+
+Workflow
+Web applications can easily integrate with other web services and tools, creating a cohesive ecosystem that streamlines workflows and eliminates the need for repetitive data entry. Whereas, VMs can be created with specific configurations to meet the needs of different applications. Tools like VMware vSphere and Azure Resource Manager templates allow for automated and consistent VM creation
+
+I decided to use a web application for this project because it offers seamless accessibility from any device with an internet connection. Additionally, web applications provide automatic updates and maintenance, ensuring the system is always up-to-date without manual intervention. Lastly, they integrate easily with other web services, streamlining workflows and enhancing productivity.
