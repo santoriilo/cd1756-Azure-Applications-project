@@ -10,9 +10,9 @@ Scalability
 Web applications can scale up or down based on demand without significant manual intervention. This flexibility can lead to cost savings, especially during periods of low usage.  Whereas, VMs can be scaled horizontally by adding more instances to distribute the workload. This is often managed through tools like Azure Virtual Machine Scale Sets, which automatically adjust the number of VMs based on demand.
 
 Availability
-Web applications are designed to be accessible 24/7 with minimal downtime. This is crucial for businesses that need to ensure their services are always available to users. By distributing VMs across different physical servers or data centers, you can achieve high availability and fault tolerance, ensuring your applications remain accessible even if some VMs fail1.
+Web applications are designed to be accessible 24/7 with minimal downtime. This is crucial for businesses that need to ensure their services are always available to users. By distributing VMs across different physical servers or data centers, you can achieve high availability and fault tolerance, ensuring your applications remain accessible even if some VMs fail.
 
 Workflow
-Web applications can easily integrate with other web services and tools, creating a cohesive ecosystem that streamlines workflows and eliminates the need for repetitive data entry. Whereas, VMs can be created with specific configurations to meet the needs of different applications. Tools like VMware vSphere and Azure Resource Manager templates allow for automated and consistent VM creation
+Web applications can easily integrate with other web services and tools, creating a cohesive ecosystem that streamlines workflows and eliminates the need for repetitive data entry. Whereas, VMs can be created with specific configurations to meet the needs of different applications. Tools like VMware vSphere and Azure Resource Manager templates allow for automated and consistent VM creation.
 
 I decided to use a web application for this project because it offers seamless accessibility from any device with an internet connection. Additionally, web applications provide automatic updates and maintenance, ensuring the system is always up-to-date without manual intervention. Lastly, they integrate easily with other web services, streamlining workflows and enhancing productivity.
