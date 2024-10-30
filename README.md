@@ -57,11 +57,13 @@ SQL_USER_NAME: cmsadmin
 
 SQL_PASSWORD: CMS4dmin
 
-CLIENT_SECRET: rpi8Q~64AfwOADjBNbG7wAZHlemphoBJqfAzIaOO
+CLIENT_SECRET: 5wP8Q~WeleYHorpmPTkiSpGc5sR4VUCagfuIGauR
 
-SECRET_KEY: 16b72f3c-a5d4-4502-bef5-102c0aafb57f
+SECRET_KEY: 01f643d4-bad9-42a4-b8a9-30dac4adbe99
 
-CLIENT_ID: 6b75513e-7cb2-491b-aeb0-890c5ce1a415 Deployment Center
+CLIENT_ID: 69aad545-72e1-4b6f-8b8f-13fc85237d10 
+
+Deployment Center
 
 Source: GitHub
 Pick the repo that contains the starter files.
